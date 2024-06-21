@@ -13,11 +13,11 @@
 
 ```mermaid
 classDiagram
-    Iphone --|> <<abstract>>Aplicativo
+    Iphone --|> Aplicativo
 
-    Aplicativo <|-- Phone <|-- <<interface>> AparelhoTelefonico 
-    Aplicativo <!-- Navigator <|-- <<interface>> NavegadorInternet  
-    Aplicativo <|-- Ipad <|-- <<interface>> ReprodutorMusical  
+    Aplicativo <|-- Phone <|--  AparelhoTelefonico 
+    Aplicativo <!-- Navigator <|--  NavegadorInternet  
+    Aplicativo <|-- Ipad <|-- ReprodutorMusical  
 
     class Ipad{
       +tocar()
