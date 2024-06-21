@@ -15,9 +15,13 @@
 classDiagram
     Iphone --|> Aplicativo
 
-    Aplicativo <|-- Phone <|--  AparelhoTelefonico 
-    Aplicativo <!-- Navigator <|--  NavegadorInternet  
-    Aplicativo <|-- Ipad <|-- ReprodutorMusical  
+    Aplicativo <|-- Phone 
+    Aplicativo <!-- Navigator  
+    Aplicativo <|-- Ipad  
+    
+    Phone <|--  AparelhoTelefonico 
+    Navigator <|--  NavegadorInternet
+    Ipad <|-- ReprodutorMusical    
 
     class Ipad{
       +tocar()
