@@ -16,7 +16,7 @@ classDiagram
     Iphone --|> Aplicativo
 
     Aplicativo <|-- Phone 
-    Aplicativo <!-- Navigator  
+    Aplicativo <|-- Navigator  
     Aplicativo <|-- Ipad  
     
     Phone <|--  AparelhoTelefonico 
